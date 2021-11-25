@@ -1,0 +1,59 @@
+ターミナルはコマンドプロンプトで
+
+hexo server
+hexo new post "file-name"
+hexo new draft "file-name"
+    draftディレクトリからpostsディレクトリに移動させることで公開
+hexo new page "dir-name"
+hexo generate
+
+```
+/node_modules：構成しているnpmライブラリの置き場所
+/public：ここに公開用のデータ一式が書き出される（作成直後はまだ無い）
+/scaffolds：記事や固定ページを作るときのMarkdownテンプレート集
+/source：記事や固定ページを構成するMarkdown・画像データを置く場所
+/themes：ブログのテーマが置かれる場所（デフォルトテーマ入り）
+_config.yml：ブログのタイトルやURLなどの設定を書くファイル
+.gitignore：gitで無視するファイルやディレクトリを書くファイル
+db.json：キャッシュが書き込まれるファイル
+package-lock.json：特定バージョンのライブラリ構成を共有する目的のファイル
+package.json：Hexoを構成しているライブラリリスト
+_config.ymlの内容を修正し、/source内にMarkdownで記事を作り、/publicに書き出されたファイル一式をWebに上げれば、ブログ公開となります。
+
+また、npmコマンドで/node_modulesにライブラリを追加すれば機能追加が行えます。
+
+加えて、/themes 内でテーマを編集・追加・新規作成すればブログの見た目や出力方法を変更可能です。
+
+Hexoブログの設定は、「_config.yml」に書き込んで変更します。
+```
+
+```
+よく使うYAMLファイルの関連オプションの説明は以下です。
+
+オプション	説明
+title	Webページのタイトル
+subtitle	サブタイトル
+description	説明
+keywords	Webサイトのキーワード、カンマで複数書けます
+author	自分の名前
+language	Webサイトの言語
+timezone	Webサイトのタイムゾーン、デフォルトはPCの設定時刻になります
+url	文字通りURL
+root	Webサイトのルートディレクトリ
+source_dir	Markdownやimageなどのコンテンツを保存するフォルダ、デフォルトはsource
+public_dir	公開用コンテンツの保存フォルダ、デフォルトはpublic
+tag_dir	タグフォルダ、デフォルトはtags
+archive_dir	アーカイブフォルダ、デフォルトはarchives
+category_dir	カテゴリーフォルダ、デフォルトはcategories
+auto_spacing	英単語があるときに半角空白の挿入、デフォルトはfalse
+titlecase	タイトルを大文字に変換する、デフォルトはfalse
+external_link	新しいリンクで開く、デフォルトはtrue
+relative_link	リンクをルートディレクトリの相対アドレスに変更する、デフォルトはfalse
+default_category	デフォルトのカテゴリー
+date_format	日付形式、デフォルトYYYY-MM-DD
+time_format	時間形式、デフォルトHH:mm:ss
+per_page	ページごとの記事を表示する件数、デフォルト10、0だとページングしない
+pagination_dir	ページングのフォルダ、デフォルトはpage
+theme	WebサイトのUIテーマ
+deploy	デプロイ情報
+```
