@@ -6,4 +6,4 @@ categories: engineering
 comments: Hi, everyone!
 ---
 
-# This is my first article! ::tada::
+# This is my first article! 🎉
