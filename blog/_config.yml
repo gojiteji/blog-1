@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: USK  # ブログ名
+title: haru polku  # ブログ名
 subtitle: ''
 description: ''
 keywords:
-author: USK # 自分の名前
+author: haru # 自分の名前
 language: en
-timezone: ''
+timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
