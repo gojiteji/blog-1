@@ -13,7 +13,7 @@ timezone: Asia/Tokyo
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com # web公開するときはここにブログトップのURLを書く
+url: https://usk314.github.io/blog/ # web公開するときはここにブログトップのURLを書く
 permalink: :year/:month/:day/:title/ # 記事のURL設定が長いので変更
 permalink_defaults:
 pretty_urls:
