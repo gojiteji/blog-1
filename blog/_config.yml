@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: haru polku  # ブログ名
-subtitle: haru polku
-description: haru of polku
+title: haru kokemus  # ブログ名
+subtitle: haru kokemus
+description:
 keywords:
 author: haru # 自分の名前
 language: ja
@@ -34,7 +34,7 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link:
+external_link: 
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
   exclude: 
@@ -97,9 +97,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Clexy
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: 
